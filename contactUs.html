@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title>הכל על ברצלונה - צור קשר</title>
+    <meta name="description" content="יצירת קשר עם אתר ברצלונה" />
+    <meta name="keywords" content="צור קשר,ברצלונה" />
+    <meta name="author" content="עדי סטמבולצ׳יק" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <link rel="icon" href="images/אתר-אייקון.png"/>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+    <!-- JS -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+
+
+</head>
+<body>
+    <div class="container">
+    
+        <header>
+            <div id="container">
+                <nav class="mainNav" aria-label="תפריט ניווט ראשי">
+                    <a id="logo" href="index.html"> 
+                          <img src="images/Artboard 7.png" width="100"/>
+                      </a>
+                  <ul>
+                  </li>
+                      <li><a href="index.html">דף הבית</a></li>
+                      <li>
+                          <a href="#">מה עושים?</a>
+                          <ul id="open">
+                              <li><a href="page1.html">אתרים </a></li>
+                              <li><a class="notActive" href="#">אומנות </a></li>
+                              <li><a class="notActive" href="#">קניות </a></li>
+                          </ul>
+                      </li>
+                      <li>
+                          <a href="#">מה אוכלים?</a>
+                          <ul id="open">
+                              <li><a class="notActive" href="#">בוקר</a></li>
+                              <li><a class="page2.html" href="page2.html">צהריים</a></li>
+                              <li><a class="notActive" href="#">ערב</a></li>
+                          </ul>
+                      </li>
+                      <li>
+                          <a href="#">לאן יוצאים?</a>
+                          <ul id="open">
+                              <li><a class="notActive" href="#">ברים</a></li>
+                              <li><a class="notActive" href="#">מסיבות</a></li>
+                          </ul>
+                      </li>
+                      <li><a class="notActive" href="#">אירועים מיוחדים</a></li>
+                  </ul>
+              </nav>
+    
+              <nav class="bradNav1">
+                <ol>
+                    <li><a href="index.html">דף הבית</a></li>
+                    <li><a href="contactUs.html">צור קשר</a></li>
+                
+                </ol>
+            </nav>
+
+            <h1 class="pagesh1">צור קשר</h1>
+            </header>
+
+<main>
+        <section id="contact">
+
+            <p>יש לכם המלצות נוספות על העיר? נשמח שתיצרו קשר ותשתפו אותנו!</p>
+        <form id="contactform">
+            <label for="firstname">
+               שם פרטי <span class="required">*</span> 
+             <input type="text" id="firstname" required />
+             </label>
+             <label for="lastname">
+                שם משפחה <span class="required">*</span>
+                <input type="text" id="lastname" required />
+            </label>
+                
+            <label for="gender">
+                מין <span class="required">*</span>
+                <input type="radio" id="gender1" name="gender" required /> זכר
+                <input type="radio" id="gender2" name="gender" /> נקבה
+            </label>
+            
+            <label for="mail">
+                דואר אלקטרוני <span class="required">*</span>
+                <input type="email" id="mail" required />
+            </label> 
+            
+            <label for="message">
+             כתבו בתיבה את ההמלצות שלכם:)
+                <br />
+                <textarea id="message" rows="5"> </textarea>
+            </label>
+        </label>
+
+        <label for="sendform">
+        <input type="submit" id="sendform" value="שלח" />
+    </label>
+            </form>
+        </section>
+    </main>
+        <img id="imgIcon1" src="images/אתר-אייקון.png"/ width="700">
+
+    <footer>
+        <nav class="footerNav" aria-label="תפריט תחתון">
+            <ul>
+                <li><a href="about.html"> אודות</a></li>
+                <li><a href="siteMap.html">מפת האתר</a></li>
+                <li><a href="contactUs.html">צור קשר</a></li>
+            </ul>
+        </nav>
+</footer>
+</div>
+</body>
+</html>
+
+
+

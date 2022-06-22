@@ -1,0 +1,980 @@
+﻿
+.container
+{
+width: 1280px;
+height: auto;
+margin: 0 auto;
+direction: rtl;
+background-color: #F2E0D0
+}
+
+/*עמוד צהריים שינוי אורך*/
+.container2
+{
+width: 1280px;
+height: 1500px;
+margin: 0 auto;
+direction: rtl;
+background-color: #F2E0D0
+
+}
+
+.container1
+{
+width: 1280px;
+height: 2180px;
+margin: 0 auto;
+direction: rtl;
+background-color: #F2E0D0
+
+}
+
+
+#logo {
+float: right;  
+}
+/*ייבוא פונט מודגש ורגיל*/
+@import url('https://fonts.googleapis.com/css2?family=Alef:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alef&display=swap');
+
+
+
+/*   תפריט ניווט עליון */
+.mainNav {
+
+    position: absolute;
+    width: 1280px;
+    height: auto;
+    align-items: center;
+    background-color: #F2EDE9;
+    direction: rtl;
+    margin: auto;
+    z-index: 1;
+    
+
+}
+
+.mainNav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;  
+}
+
+.mainNav li  {
+display: inline-block;
+
+}
+
+.mainNav ul li a {
+display: block;
+color: rgb(0, 0, 0);
+width: 150px;
+height: 30px;
+padding-top: 20px;
+text-decoration: none;
+text-align: center;
+background-color: #F2EDE9;
+font-family: 'Alef', sans-serif;
+}
+
+
+#open li{
+display: block !important;
+float: none;
+}
+
+.mainNav ul li a:hover{
+    background-color: #E8BE91;
+}
+
+.mainNav ul li ul {
+    display: none;
+    position: absolute;
+}
+
+.mainNav ul li:hover ul {
+    display:block;
+    width: 100;
+}
+
+/*תפריט פירורי לחם*/
+.bradNav {
+    position: relative;
+    top: 20px;
+    background-color: #6D9CA6;
+    width: 250px;
+    padding: 5px;
+
+}
+.bradNav ol li {
+    display: inline-block;
+}
+
+.bradNav ol li:after {
+    content: ">";
+}
+
+.bradNav ol li:last-child::after {
+    content: " ";
+}
+
+.bradNav ol li {
+   color: white;
+   font-weight: bold
+}
+.bradNav ol li a {
+    color: white;
+    font-weight: bold;
+    
+
+
+ }
+
+ 
+/*תפריט פירורי לחם אודות,צור קשר ומפת האתר*/
+.bradNav1 {
+    position: relative;
+    top: 80px;
+
+}
+.bradNav1 ol li {
+    display: inline-block;
+}
+
+.bradNav1 ol li:after {
+    content: ">";
+    color: #6D9CA6;
+}
+
+.bradNav1 ol li:last-child::after {
+    content: " ";
+}
+
+.bradNav1 ol li {
+   color: white;
+   font-weight: bold
+}
+.bradNav1 ol li a {
+    color: #6D9CA6;
+    font-weight: bold
+    
+ }
+
+/*קישורים לא פעילים*/
+.notActive{
+    cursor: not-allowed;
+}
+
+/*עמוד בית*/
+/*תמונת רקע*/
+.homepage {
+    background-position: 75%;
+    width: 1280px;
+    height: 700px;
+    margin: 0 auto;
+    background-image: url("../images/רקע.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    }
+
+/*כפתור ראשון*/
+.button1 {
+display: block;
+font-size: 0.5em;
+position: relative; 
+top: 20px;
+background-color: #E8BE91;
+width:200px ;
+height: 30px;
+border-radius: 25px;
+margin: auto;
+font-weight: bolder;
+filter: drop-shadow(2px 2px 2px #c6a077 );
+}
+
+
+.button1 a {
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Alef', sans-serif;
+}
+
+
+.button1:hover{
+    background-color: #F2E0D0;
+}
+
+
+/*פתיח עמוד בית*/
+
+.info, .mainh1 {
+position: relative;
+top: 250px;
+text-align: center;
+font-family: 'Alef', sans-serif;
+}
+
+.mainh1 {
+font-size: 8em;
+}
+.info{
+font-size: 3em;
+}
+
+
+.homepage1 {
+margin: 0 auto;
+width: 100%;
+}
+
+/*עמוד הבית מלבנים ותמונות*/
+#homepage1 div {
+width: 300px;
+height: 400px;
+background-color: #F2EDE9;
+display: inline-block;
+border-radius: 25px;
+margin: 0 auto;
+direction: rtl;
+position: relative;
+top: 70px;
+}
+
+#square1 {
+position: relative;
+right: 130px; 
+filter: drop-shadow(5px 5px 5px #bdafa5 );
+}
+
+#square2 {
+position: relative;
+right: 180px;
+filter: drop-shadow(5px 5px 5px #bdafa5 );  
+   }
+
+#square3 {
+position: relative;
+right: 230px;
+filter: drop-shadow(5px 5px 5px #bdafa5 );    
+   }
+
+ #homepage1 div h2 {
+font-size: 1em;
+text-align: center;
+position: relative;
+top: 50px;
+font-weight: bold;
+font-family: 'Alef', sans-serif;
+
+}
+
+.squareImg {
+  
+    width: 100%;
+    position: relative;
+    top: 100px;
+}
+
+/*כפתורים בתוך המלבנים*/
+.button {
+    display: block;
+    font-size: 1em;
+    position: relative;
+    top: 130px;
+    background-color: #E8BE91;
+    width: 150px; 
+    height: 30px;
+    border-radius: 25px;
+    margin: auto;
+    text-align: center;
+    font-weight: bolder;
+    filter: drop-shadow(2px 2px 2px #c6a077 );
+    }
+
+   .button a {
+        color: rgb(0, 0, 0);
+        position: relative;
+        top: 5px;
+        text-decoration: none;
+        text-align: center;
+        font-family: 'Alef', sans-serif;
+   }
+
+   .button:hover{
+    background-color: #F2E0D0;
+}
+
+
+/*עמוד הבית מלבנים אירועים*/
+
+
+.pageH2 {
+font-weight: bold;
+text-align: center;
+font-family: 'Alef', sans-serif;
+font-size: 1.5em;
+top: 10px;
+
+
+
+}
+
+.squares2 {
+    width: 200px;
+    height: 170px;
+    background-color: #F2EDE9;
+    display:block;
+    border-radius: 25px;
+    margin: 0 auto;
+    direction: rtl;
+    position: relative;
+    left: 400px;
+    filter: drop-shadow(5px 5px 5px #bdafa5 );
+    
+    }
+
+
+#square4 {
+    position: relative;
+    top: 30px; 
+    
+     }
+        
+#square5 {
+    position: relative;
+    top: 60px;
+           }
+        
+#square6 {
+     position: relative;
+    top: 90px;
+
+   
+           }
+
+    .insideS {
+        width: 200px;
+        height: 45px;
+        background-color: #B6CED4;
+        display:block;
+        border-radius: 25px 25px 0px 0px;
+        margin: 0 auto;
+    }
+
+    .june {
+        font-weight: bold;
+        text-align: center;
+        font-family: 'Alef', sans-serif;
+        font-size: 1.5em;
+       position: relative;
+       top: 10px;
+       right: 80px;
+
+    }
+
+    .date
+    {
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Alef', sans-serif;
+    font-size: 4em;
+    position: relative;
+    top: 20px;
+    right: 65px;   
+    }
+    #date3{
+        position: relative;
+        right: 75px;  
+    }
+
+    .event1 {
+        position: relative;
+        right: 400px;
+        bottom: 70px;
+        width: 500px;
+    
+     }
+
+     .event1 h3{
+       color: #6D9CA6;  
+       font-size: 1.5em;
+     }
+
+     #event2 {
+        position: relative;
+        bottom: 40px;
+     }
+
+
+     #event3 {
+        position: relative;
+        bottom: 10px;
+        padding-bottom: 100px;
+     }
+
+     #homepage2 a {
+        color: #6D9CA6;
+     }
+
+     /*עמוד אתרים  */
+
+/*רקע */
+.page1 {
+    width: 1280px;
+    height: 500px;
+    margin: 0 auto;
+    background-image: url("../images/atarim.jpg");
+    background-position: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    }
+
+ /*תכותרת */
+#page1h1 {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    font-family: 'Alef', sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    opacity: 1;
+   
+}
+/*תיבה לכותרת*/
+#divpage1H1 {
+    width: 630px;
+    height: 50px;
+    background-color: #F2EDE9;
+    opacity: 0.7;
+    position: relative;
+    top: 250px;
+    right: 300px;
+    border-radius: 25px;
+}
+
+
+#info1{
+    width: 1000px;
+    height: 200px; 
+    margin: auto; 
+    text-align: center; 
+    font-family: 'Alef', sans-serif;
+    font-size: 1.5em;
+    position: relative;
+    top: 50px;
+}
+
+/*רשימת אתרים*/
+.atar {
+    width: 750px;
+    height: 120px;
+    margin: auto;
+}
+
+.atar h2 {
+    color: #6D9CA6;
+    
+}
+#Atarim {
+  position: relative;
+  bottom: 150px;
+    direction: rtl;
+    padding-top: 180px;
+    
+}
+
+#pin {
+    width: 25px;
+    height: 25px;
+}
+
+.atar a  {
+  color: #6D9CA6;  
+}
+
+
+/*עמוד צהריים */
+
+/*רקע */
+.page2 {
+    width: 1280px;
+    height: 500px;
+    margin: 0 auto;
+    background-image: url("../images/צהריים רקע.jpg");
+    background-position: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    }
+
+ /*כותרת */
+#page2h1 {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    font-family: 'Alef', sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    opacity: 1;
+   
+}
+/*תיבה לכותרת*/
+#divpage2H1 {
+    width:630px;
+    height: 50px;
+    background-color: #F2EDE9;
+    opacity: 0.7;
+    position: relative;
+    top: 250px;
+    right: 320px;
+    border-radius: 25px;
+}
+
+
+#info2{
+    width: 1000px;
+    height: 200px; 
+    margin: auto; 
+    text-align: center; 
+    font-family: 'Alef', sans-serif;
+    font-size: 1.5em;
+    position: relative;
+    top: 50px;
+}
+
+#imgLunch {
+    position: relative;
+    top: 20px;
+}
+/*טבלה*/
+
+#resturantTable {
+    position:relative;
+    top: 100px;
+    padding-bottom: 100px;
+}
+
+#resturantTable a {
+    color: #000000;
+}
+table {
+    font-family: 'Alef', sans-serif; 
+    border-collapse: collapse;
+    margin: auto;
+    
+  }
+  
+  td, th {
+    border: 0.2px solid #E8BE91;
+    text-align:right;
+    padding: 8px;
+
+  }
+  
+ th {
+    text-align:center;
+    padding: 8px;
+    font-size: 1.2em;
+}
+  td:nth-child(1){
+    width: 150px;
+    padding: 25px;
+font-weight: bold;
+color: #6D9CA6;
+}
+
+td:nth-child(2){
+    width: 350px;
+
+
+}
+td:nth-child(3){
+    padding: 10px;
+}
+
+aside{
+    margin: auto;
+   padding: 50px;
+   position: relative;
+   right: 150px;
+    
+}
+
+aside h2 {
+ font-weight: bold;
+font-family: 'Alef', sans-serif;
+ font-size: 1.5em;
+ top: 10px;
+        
+}
+aside ul {
+top: 10px;
+line-height: 30px;
+/*list-style-image: url('../images/cheers.png');*/
+
+}
+
+aside a {
+    color: #6D9CA6;
+}
+
+
+/*עמוד צור קשר*/
+form
+{
+    margin: 0 auto;
+    width: 100%;
+   position: relative;
+   top: 100px;
+   right: 200px;
+   line-height: 50px;
+}
+#contactform label {
+    display: block;
+}
+
+#contact p {
+    width: 500px;
+    height: 200px; 
+    margin: auto; 
+    text-align: ri; 
+    font-family: 'Alef', sans-serif;
+    font-size: 1.5em;
+    position: relative;
+    top: 200px;
+    left: 189px;
+}
+
+
+/*כותרות */
+.pagesh1
+{
+position: relative;
+top: 150px;
+right: 200px;
+ font-size: 3em;
+ position: relative;
+ color: #6D9CA6;
+}
+
+
+/*עמוד מפת האתר*/
+
+#siteMap ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;  
+}
+
+#siteMap li  {
+display: inline-block;
+
+}
+
+#siteMap ul li a {
+display: inline-block;
+width: 150px;
+height: 30px;
+padding-top: 10px;
+text-decoration: none;
+text-align: center;
+position: relative;
+
+font-family: 'Alef', sans-serif; 
+
+color: #000000;
+
+}
+
+
+
+#open1 li{
+display: block !important;
+float: none;
+}
+
+.siteMapOpen {
+    position: relative;
+    top: 120px;
+}
+
+.siteMapOpen2 {
+    position: relative;
+    top: 80px;
+}
+
+#homepagelink {
+    position: relative;
+   
+}
+
+
+#siteMap  .notActive {
+    cursor: not-allowed;
+    color: gray;
+}
+
+
+footer {
+    direction: rtl;
+    width: 1280px;
+    margin: auto;
+}
+
+#sitemap1 {
+    padding: 70px;
+}
+
+
+.required {
+    color: red;
+    font-weight: bold;
+}
+/*עמוד אודות*/
+
+.aboutP {
+
+    font-family: 'Alef', sans-serif; 
+}
+
+#p3about a {
+    color:#6D9CA6 ;
+}
+
+#p1about {
+    position: relative;
+    top: 100px;
+    width: 400px;
+    height: 50px;  
+}
+
+#p2about {
+    position: relative;
+    top: 150px;
+    width: 400px;
+    height: 50px;  
+}
+
+#p3about {
+    position: relative;
+    top: 200px;
+    width: 400px;
+    height: 50px;  
+}
+
+
+#p3about ul {
+    
+    width: 400px;
+    height: 50px;  
+}
+
+#about {
+    position: relative;
+    right: 200px;
+    top: 100px;
+
+}
+
+
+#hit {
+position: relative;
+top: 270px;
+right: 190px;
+color: #6D9CA6;
+margin: auto;
+z-index: 1;
+}
+
+#hitIMG{
+position: relative;
+top: 300px;
+margin: auto;
+}
+
+
+/*תמונה של האייקון -אודות*/
+#imgIcon {
+    position: relative;
+    right: 650px;
+    opacity: 0.5;
+    padding: 10px;
+}
+/*תמונה של האייקון -צור קשר*/
+#imgIcon1 {
+    position: relative;
+    bottom: 550px;
+    right: 650px;
+    opacity: 0.5;
+}
+/*תמונה של האייקון -מפת האתר*/
+#imgIcon3 {
+    position: relative;
+    right: 650px;
+    opacity: 0.5;
+}
+
+
+/*תפריט תחתון*/
+.footerNav {
+
+position: absolute;
+width: 1280px;
+height: auto;
+align-items: center;
+background-color: #F2EDE9;
+direction: rtl;
+margin: auto;
+z-index: 1;
+
+}
+
+.footerNav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;  
+}
+
+.footerNav li  {
+display: inline-block;
+
+}
+
+.footerNav ul li a {
+display: block;
+color: rgb(0, 0, 0);
+width: 150px;
+height: 30px;
+padding-top: 20px;
+text-decoration: none;
+text-align: center;
+background-color: #F2EDE9;
+font-family: 'Alef', sans-serif;
+}
+
+
+#open li{
+display: block !important;
+float: none;
+}
+
+.footerNav ul li a:hover{
+    background-color: #E8BE91;
+}
+
+.footerNav ul li ul {
+    display: none;
+    position: absolute;
+}
+
+.footerNav ul li:hover ul {
+    display:block;
+    width: 100;
+}
+
+ #imgLunch img {
+border-radius: 5px 5px 5px 5px;
+ }
+
+
+/*גלריה*/
+
+#gallery {
+    width: 650px;
+      position: relative;
+      bottom: 100px;
+      margin: auto;
+      padding-bottom: 100px;
+      z-index: 1;
+
+    }
+    
+      /* הסתר את התמונות עד ללחיצה */
+      .myPhotos {
+        display: none;
+        position: relative;
+        right: 130px;
+        top: 2px;
+  
+      }
+      
+      /* סימון עכבר במעבר על התמונות */
+      .cursor {
+        cursor: pointer;
+      }
+      
+      /* חצים */
+      #prev,
+      #next {
+        cursor: pointer;
+        position: absolute;
+        top: 40%;
+        width: auto;
+        padding: 16px;
+        color: #E8BE91;
+        background-color: #F2EDE9;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        -webkit-user-select: none;
+      }
+      
+      /* מיקום החץ */
+      #prev {
+        right: 520px;
+      }
+      
+      #next {
+        left:520px;
+      }
+      
+      
+      /* מעבר עכבר על החצים */
+      #prev:hover,
+      #next:hover {
+        background-color: rgba(255, 255, 255, 0.8);
+      }
+      
+      /*מספור התמונות */
+      .numbertext {
+        color: #ffffff;
+        background-color: #6D9CA6;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+        font-weight: bold;
+        font-family:'Alef', sans-serif;
+        font-weight: bold;
+      }
+      
+      /* כותרות לתמונות */
+      .Titel-container {
+        text-align: center;
+        background-color: #F2EDE9;
+        padding: 2px 16px;
+        color: #6D9CA6;
+        font-family: 'Alef', sans-serif;
+        font-weight: bold;
+      }
+      
+      /* סידור התמונות למטה */
+      .column {
+        float: left;
+        width: 20%;
+      }
+      
+      /* הורדת השקיפות לתמונות  למטה */
+      .down {
+        opacity: 0.6;
+      }
+      
+        /* בדמו זה יהיה אופסיטי אחד באובר ובאקטיב זה יהיה אופסיטי אחד */
+    
+      .active,
+      .down:hover {
+        opacity: 1;
+      }

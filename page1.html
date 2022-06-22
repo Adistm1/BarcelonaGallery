@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8" />
+    <title>הכל על ברצלונה - אתרים</title>
+    <meta name="description" content="מידע על האתרים התירותיים בברצלונה" />
+    <meta name="keywords" content="אתרים בברצלונה,תיירות" />
+    <meta name="author" content="עדי סטמבולצ׳יק" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <link rel="icon" href="images/אתר-אייקון.png"/>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css"
+        integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+   <!-- Scripts -->
+   <script src="jScripts/jquery-3.6.0.min.js"></script>
+   <script src="jScripts/JavaScript.js" type="text/javascript">  </script>
+
+</head>
+
+<body onload="showPhotos(1)">
+    <div class="container1">
+        <header class="page1">
+            <nav class="mainNav" aria-label="תפריט ניווט ראשי">
+                <a id="logo" href="index.html"> 
+                      <img src="images/Artboard 7.png" width="100"/>
+                  </a>
+              <ul>
+              </li>
+                  <li><a href="index.html">דף הבית</a></li>
+                  <li>
+                      <a href="#">מה עושים?</a>
+                      <ul id="open">
+                          <li><a href="page1.html">אתרים </a></li>
+                          <li><a class="notActive" href="#">אומנות </a></li>
+                          <li><a class="notActive" href="#">קניות </a></li>
+                      </ul>
+                  </li>
+                  <li>
+                      <a href="#">מה אוכלים?</a>
+                      <ul id="open">
+                          <li><a class="notActive" href="#">בוקר</a></li>
+                          <li><a class="page2.html" href="page2.html">צהריים</a></li>
+                          <li><a class="notActive" href="#">ערב</a></li>
+                      </ul>
+                  </li>
+                  <li>
+                      <a href="#">לאן יוצאים?</a>
+                      <ul id="open">
+                          <li><a class="notActive" href="#">ברים</a></li>
+                          <li><a class="notActive" href="#">מסיבות</a></li>
+                      </ul>
+                  </li>
+                  <li><a class="notActive" href="#">אירועים מיוחדים</a></li>
+              </ul>
+          </nav>
+
+            <div id="divpage1H1">
+                <h1 id="page1h1">האתרים שלא כדי לכם לפספס</h1>
+            </div>
+
+            <nav class="bradNav">
+                <ol>
+                    <li><a href="index.html">דף הבית</a></li>
+                    <li>מה עושים?</li>
+                    <li>אתרים</li>
+                </ol>
+            </nav>
+
+        </header>
+<main>
+        <section id="info1">
+            <p>ברצלונה עיר מדהימה ביופיה ויש בה אתרים מיוחדים ומעניינים שלא כדאי לכם לפספס!</p>
+        </section>
+
+        <section id="gallery">
+            <div id="container1">
+            
+              <div class="myPhotos">
+                <div class="numbertext">5 / 1</div>
+                  <img src="images/גלריה-1.jpeg" style="width:60%">
+              </div>
+            
+              <div class="myPhotos">
+                <div class="numbertext">5 / 2</div>
+                  <img src="images/גלריה-2.jpeg" style="width:60%">
+              </div>
+            
+              <div class="myPhotos">
+                <div class="numbertext">5 / 3</div>
+                  <img src="images/גלריה-3.jpeg" style="width:60%">
+              </div>
+            
+              <div class="myPhotos">
+                <div class="numbertext">5 / 4</div>
+                  <img src="images/גלריה-5.jpeg" style="width:60%">
+              </div>
+            
+              <div class="myPhotos">
+                <div class="numbertext">5 / 5</div>
+                  <img src="images/גלריה 6.jpeg" style="width:60%">
+              </div>
+            
+              <!-- Next and previous buttons -->
+              <a id="prev" onclick="arrowPhotos(-1)">&#10095;</a>
+              <a id="next" onclick="arrowPhotos(1)">&#10094;</a> 
+            
+              <!-- Image text -->
+              <div class="Titel-container">
+                <p id="photoTitel"></p>
+              </div>
+            
+              <!-- Thumbnail images -->
+              <div class="row">
+                <div class="column">
+                  <img class="down cursor" src="images/גלריה-1.jpeg" style="width:100%" onclick="currentPhoto(1)" alt="סגרדה פמיליה">
+                </div>
+                <div class="column">
+                  <img class="down cursor" src="images/גלריה-2.jpeg" style="width:100%" onclick="currentPhoto(2)" alt="שער הניצחון">
+                </div>
+                <div class="column">
+                  <img class="down cursor" src="images/גלריה-3.jpeg" style="width:100%" onclick="currentPhoto(3)" alt="נמל ברצלונה">
+                </div>
+                <div class="column">
+                  <img class="down cursor" src="images/גלריה-5.jpeg" style="width:100%" onclick="currentPhoto(4)" alt="תצפית מונז׳ואיק">
+                </div>
+                <div class="column">
+                  <img class="down cursor" src="images/גלריה 6.jpeg" style="width:100%" onclick="currentPhoto(5)" alt="חוף ברצלונה">
+                </div>
+              </div>
+            </div>
+            
+            </section>
+
+        <section id="Atarim">
+            <div id="Atar1" class="atar">
+            <h2>סגרדה פמיליה</h3>
+            <p>סגרדה פמיליה היא כנסייה הנמצאת בברצלונה. הכנסייה תוכננה על ידי אמן המודרניסטה והאדריכל הקטלאני אנטוני
+                גאודי ובנייתה החלה בשנת 1882.
+            </p>
+            להוראות הגעה  &#8592
+           <a href="https://goo.gl/maps/EVyKLE5ENuNtGEeZ8" target="_blank"> <img id="pin" src="images/location.png"/> C/ de Mallorca, 401, 08013 Barcelona
+           </a>
+
+        </div>
+        <div id="Atar2" class="atar">
+            <h2>שער הניצחון</h3>
+            <p>
+                שער הניצחון הוא שער ניצחון בברצלונה, ספרד. המבנה נבנה לכבוד התערוכה העולמית של ברצלונה, כשער כניסה
+                המרכזי אליה על ידי האדריכל ג'וזף וילסקה אי קאסנובס.
+            </p>
+            להוראות הגעה  &#8592
+            <a href="https://goo.gl/maps/t933EsKn9Xy2hFbTA" target="_blank"> <img id="pin" src="images/location.png"/> Passeig de Lluís Companys, 08003 Barcelona</a>
+        </div>
+
+<div id="Atar3" class="atar">
+            <h2>פארק גואל</h3>
+            <p>פארק גואל הוא מתחם גנים שתוכנן על ידי האדריכל הקטלאני אנטוני גאודי. המתחם, הממוקם באזור גרסיה על גבעת אל
+                כרמל בברצלונה שבספרד, נבנה בין השנים 1914-1900, והוכרז על ידי ארגון אונסק"ו כאתר מורשת עולמית בשנת 2005.
+            </p>
+            להוראות הגעה  &#8592
+            <a href="https://g.page/ParkGuellOficial?share" target="_blank">   <img id="pin" src="images/location.png"/>  08024 Barcelona </a>
+        </div>
+
+        <div id="Atar4" class="atar">
+            <h2>מונז'ואיק</h3>
+            <p>
+                מונז'ואיק הנקרא הר היהודים בגלל בית הקרבות היהודי שהיה בו. תוכלו למצוא מוזיאון, ארמון ותצפית מרהיבה על כל העיר עד לצדה השני.
+            </p>
+            להוראות הגעה  &#8592
+            <a href="https://goo.gl/maps/1kuMXqtkoXqERDEu9"target="_blank">   <img id="pin" src="images/location.png"/>  08038 Barcelona </a>
+        </div>
+
+        <div id="Atar5" class="atar">
+            <h2>כיכר אספניה</h3>
+            <p>
+                כיכר מרכזית וידועה בברצלונה, ניתן למצוא בה פסלים, מופע מזרקות שכדאי להגיע אליו בלילה וקניון ליד.
+         </p>
+            להוראות הגעה  &#8592
+            <a href="https://goo.gl/maps/iPkfte49S66y8WaPA"target="_blank">  <img id="pin" src="images/location.png"/>  Plaça d'Espanya
+                08004 Barcelona </a>
+        </div>
+
+        </section>
+    </main>
+       
+<footer>
+    <nav class="footerNav" aria-label="תפריט תחתון">
+        <ul>
+            <li><a href="about.html"> אודות</a></li>
+            <li><a href="siteMap.html">מפת האתר</a></li>
+            <li><a href="contactUs.html">צור קשר</a></li>
+        </ul>
+    </nav>
+    </footer>
+</div>
+</div>
+</body>
